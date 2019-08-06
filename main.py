@@ -40,6 +40,7 @@ class Classifier:
 
         # predicts the outcomes
         def classifiyModel(self):
+            tkMessageBox.showinfo("Naive Bayes Classifier", "Classifying")
             self.model.classifaier()
             tkMessageBox.showinfo("Naive Bayes Classifier", "Classifying is done!")
             self.master.destroy()
